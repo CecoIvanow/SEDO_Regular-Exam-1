@@ -55,12 +55,12 @@ h1 {
 }
 
 button {
-    background-color: #5c67f2;
+    background-color: #28a745; /* Green */
     color: white;
     /* *** Remove border: none; Add border style *** */
     /* border: none; */ /* REMOVED */
-    border: 2px solid #3e47a1; /* NEW LINE */
-    padding: 12px 25px;
+    border: 2px solid #1e7e34; /* NEW LINE */
+    padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
@@ -68,11 +68,11 @@ button {
 }
 
 button:hover {
-    background-color: #4a54c4;
-    border-color: #3e47a1; /* Keep border color on hover consistent */
+    background-color: #218838;
+    border-color: #1e7e34; /* Keep border color on hover consistent */
 }
 
 button:active {
-    background-color: #3e47a1;
-    border-color: #3e47a1; /* Keep border color on active consistent */
+    background-color: #1e7e34;
+    border-color: #1e7e34; /* Keep border color on active consistent */
 }
